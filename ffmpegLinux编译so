@@ -1,0 +1,8 @@
+1. Linux 配置好JDK，NDK
+2. 解压ffmpeg-2.6.9.zip
+    (1) chmod 777 +R ffmpeg-2.6.9 给文件夹权限
+   （2） 替换解压包里configure文件
+    (3) 将build_android.sh 放入解压包里(注意修改脚本里ndk路径配置，mac()和Linux(linux-x86_64)的ndk目录不一样)
+    (4) chmod +x build_android.sh 给 build_android.sh 执行权限
+
+3. 进入解压目录 执行 build_android.sh脚本：./build_android.sh
